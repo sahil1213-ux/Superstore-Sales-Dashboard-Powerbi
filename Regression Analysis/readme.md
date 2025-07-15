@@ -1,13 +1,12 @@
 # Superstore Profit Prediction: Regression Analysis Project
 
-```markdown
 ## 🌟 Superstore Profit Prediction: Regression Analysis Project
 
 ### 📖 Overview
 
 This project delves into a superstore sales dataset to predict profit using regression techniques. By identifying key profit drivers, it provides actionable insights to optimize business operations and enhance profitability.
 
-![Model Visualization](https://placeholder-for-project-visualization.png)
+<img width="984" height="584" alt="Image" src="https://github.com/user-attachments/assets/38808781-4e83-4a67-9823-6bc33a9409de" />
 
 ---
 
@@ -98,7 +97,6 @@ The superstore seeks to uncover factors that significantly impact profit margins
 - Use the **Random Forest model** (68.5% accuracy) to forecast profit for new orders.
 - Flag potential loss-making transactions before fulfillment.
 
----
 
 ### 🛠️ Technologies Used
 
@@ -107,10 +105,7 @@ The superstore seeks to uncover factors that significantly impact profit margins
 - **Scikit-learn**: Machine learning.
 - **Matplotlib, Seaborn**: Data visualization.
 - **Jupyter Notebook**: Interactive development.
-
 ---
-
 ### 🔮 Future Work
 
 - Conduct **time-series analysis** to detect seasonal profit patterns.
-```
