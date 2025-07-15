@@ -93,7 +93,6 @@ print(f"Number of duplicate keys found: {dup_keys.sum()}")
 df_deduplicated = df.drop_duplicates(subset=['order_id', 'product_id'], keep='first')
 
 # IMPORTANT: Don't reassign df_deduplicated to a boolean series!
-# This line was incorrect: df_dedup = df_dedup.duplicated(...)
 # Instead, store the check in a new variable:
 remaining_dups = df_deduplicated.duplicated(subset=['order_id', 'product_id'], keep=False)
 print(f"Number of duplicate keys after deduplication: {remaining_dups.sum()}")
